@@ -1,0 +1,719 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 0;
+    font-family: 'Mooli', sans-serif;
+}
+
+
+
+.hero{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+.hero-text{
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-hero{
+    width: 70%;
+}
+.hero-text h1{
+    padding-bottom: 20px;
+    font-size: 2.5em;
+}
+.hero-text p{
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.hero-text a{
+    margin-top: 10px;
+    display: block;
+    outline: 2px solid orangered;
+    width: 25%;
+    text-decoration: none;
+    color: orangered;
+    padding: 12px;
+}
+.hero-img{
+    width: 52%;
+}
+.hero-img img{
+    width: 100%;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
+.boxes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    width: 20%;
+    height: 200px;
+    background-color: orangered;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+.box1 img{
+    width: 35%;
+    position: relative;
+}
+.box1 a{
+    color: white;
+}
+.box1:hover{
+    transform: scale(1.2);
+    transition: all 1.2s ease-in-out;
+}
+.para{
+    margin-top: 100px;
+    padding: 0px 30px 0px 30px;
+}
+.para h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+.mission-vision{
+    display: flex;
+    margin-top: 20px;
+}
+.mission{
+    padding: 10px;
+}
+.mission h2{
+    font-size: 2em;
+    padding-left: 0px;
+}
+.mission p{
+    padding-left: 49px;
+}
+.vision{
+    padding: 10px;
+}
+.vision h2{
+    font-size: 2em;
+    padding-left: 0px;
+}
+.vision p{
+    padding-left: 49px;
+}
+.history-team{
+    display: flex;
+    margin-top: 20px;
+}
+.history{
+    padding: 10px;
+}
+.history h2{
+    font-size: 2em;
+    padding-left: 0px;
+}
+.history p{
+    padding-left: 49px;
+}
+.team{
+    padding: 10px;
+}
+.team h2{
+    font-size: 2em;
+    padding-left: 0px;
+}
+.team p{
+    padding-left: 49px;
+}
+
+.Services{
+    background-color: rgb(196, 195, 195);
+    display: flex;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+.services-text{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-services{
+    width: 80%;
+}
+.Services h3{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.Services h1{
+    font-size: 2.2em;
+    padding-bottom: 10px;
+}
+.two-para{
+    display: flex;
+    width: 80%;
+    gap: 25px;
+    font-size: 1.2em;
+}
+.services-img{
+    width: 60%;
+}
+.services-img img{
+    width: 60%;
+    position: relative;
+    left: 30%;
+}
+.people{
+    margin-top: 20px;
+}
+.people-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.people h1{
+    text-align: center;
+    font-size: 2.5em;
+    padding-bottom: 20px;
+}
+.first-comment{
+    width: 25%;
+    height: 250px;
+    background-color: orangered;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+}
+.first-comment span{
+    font-size:25px;
+    padding-bottom: 20px;
+}
+.first-comment h2{
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+.first-comment p{
+    font-size: 1em;
+    padding-bottom: 5px;
+}
+.first-para{
+    border-bottom: 1px solid white;
+}
+.first-comment h6{
+    font-size: 12px;
+    padding-top: 5px;
+}
+.first-comment:hover{
+    transform: scale(1.1);
+    transition: all 1.3s ease-in-out;
+}
+.hero-img1 img{
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+.our-team{
+    background-color: orangered;
+    padding: 50px;
+    margin-top: 30px;
+}
+.our-team h1{
+    text-align: center;
+    color: white;
+    font-size: 2.3em;
+    padding-bottom: 20px;
+}
+.our-team p{
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+    padding-bottom: 20px;
+}
+.team-1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 20px;
+}
+.doctor{
+    width: 20%;
+    height: 450px;
+    background-color: white;
+    padding: 20px 20px 0px 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.doctor img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.doctor h5{
+    color: gray;
+    padding-bottom: 10px;
+}
+.doctor h1{
+    padding-bottom: 10px;
+    color: inherit;
+    font-size: 1.8em;
+}
+.doctor p{
+    color: gray;
+    padding-bottom: 20px;
+}
+.doctor ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.doctor ul li{
+    width: 20%;
+    border: none;
+    border-radius: 30%;
+    background-color: orangered;
+    text-align: center;
+}
+.doctor ul li i{
+    font-size: 2em;
+}
+.doctor:hover{
+    transform: scale(1.1);
+    transition: all 1.2s ease-in-out;
+}
+.img-contact{
+    display: flex;
+    margin-top: 30px;
+}
+.contact-img{
+    width: 60%;
+}
+.contact-img img{
+    width: 95%;
+    border-top-right-radius: 350px;
+    border-bottom-right-radius: 350px;
+}
+.contact-form{
+    width:50%;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-text{
+    width: 90%;
+}
+.contact-form h1{
+    font-size: 2.3em;
+    padding-bottom: 10px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form form label{
+    font-size: 16px;
+    padding-top: 6px;
+}
+.contact-form form input{
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.contact-form form textarea{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.check-link{
+    display: flex;
+    margin-top: 10px;
+}
+.check-link input{
+    width: 2%;
+}
+
+.check-link label a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.contact-form button{
+    background-color: orangered;
+    color: white;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+}
+
+.contacts{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.phone{
+    width: 22%;
+    height: 120px;
+    background-color: orangered;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
+
+.phone h2{
+    padding-bottom: 30px;
+}
+
+.phone:hover{
+    transform: scale(1.1);
+    transition: all 1.3s ease-in-out;
+}
+
+
+@media screen and (max-width:945px) {
+    .hero-text a{
+        width: 40%;
+        padding: 10px;
+    }
+    .services-text{
+        width: 80%;
+    }
+    .text-services{
+        width: 90%;
+    }
+    .services-img{
+        width: 60%;
+    }
+    .services-img img{
+        width: 70%;
+    }
+    
+    .first-comment{
+        width: 25%;
+        font-size: 14px;
+    }
+
+    .first-comment span{
+        padding-bottom: 10px;
+    }
+
+    .first-comment h2{
+        padding-bottom: 10px;
+    }
+
+    .first-comment h6{
+        padding-top: 5px;
+    }
+
+    .hero-img1{
+        width: 80%;
+    }
+    .hero-img1 img{
+        width: 100%;
+    }
+}
+@media screen and (max-width:888px) {
+    .hero-text p{
+        padding-bottom: 10px;
+    }
+    .hero-text a{
+        margin-top: 0px;
+    }
+    .text-hero{
+        width: 75%;
+    }
+    .hero-img1{
+        width: 55%;
+    }
+    .hero-img1 img{
+        width: 100%;
+    }
+
+    .first-comment{
+        width: 30%;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:720px) {
+    .hero{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .hero-text{
+        width: 100%;
+    }
+
+    .text-hero{
+        width: 80%;
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .text-hero p{
+        font-size: 20px;
+    }
+    .hero-text a{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 27%;
+        width: 50%;
+    }
+    .hero-img{
+        margin-top: 10px;
+        width: 100%;
+    }
+    .boxes{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .box1{
+        width: 39%;
+    }
+    .box1 h1,p{
+        padding-bottom: 10px;
+    }
+    .para{
+        margin-top: 50px;
+    }
+    .Services{
+        flex-direction: column;
+    }
+    .services-text{
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .two-para{
+        width: 100%;
+    }
+    .services-img{
+        width: 85%;
+    }
+    .services-img img{
+        width: 60%;
+    }
+
+    .people-flex{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .first-comment{
+        width: 40%;
+    }
+    
+    .hero-img1{
+        width: 100%;
+    }
+    
+    .team-1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .doctor{
+        width: 40%;
+    }
+
+    .img-contact{
+        flex-direction: column;
+    }
+    
+    .contact-img{
+        width: 100%;
+    }
+    .contact-form h1{
+        text-align: center;
+    }
+    .contact-form{
+        width: 100%;
+    }
+
+    .contacts{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .phone{
+        width: 33%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .hero-text a{
+        width: 55%;
+        left: 20%;
+    }
+    .box1{
+        width: 50%;
+    }
+
+    .mission-vision{
+        flex-direction: column;
+    }
+
+    .history-team{
+        flex-direction: column;
+    }
+
+    .first-comment{
+        width: 55%;
+    }
+
+    .doctor{
+        width: 55%;
+    }
+    
+    .phone{
+        width: 45%;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:427px) {
+    .text-hero{
+        width: 95%;
+    }
+
+    .box1{
+        width: 60%;
+    }
+
+    .first-comment{
+        width: 65%;
+    }
+
+    .para{
+        margin-top: 30px;
+        padding: 0px;
+    }
+    .mission-vision{
+        margin-top: 15px;
+    }
+
+    .mission h2{
+        text-align: center;
+    }
+    .mission p{
+        padding: 10px;
+    }
+
+    .vision h2{
+        text-align: center;
+    }
+    .vision p{
+        padding: 10px;
+    }
+
+    .history-team{
+        margin-top: 10px;
+    }
+
+    .history h2{
+        text-align: center;
+    }
+    .history p{
+        padding: 10px;
+    }
+
+    .team h2{
+        text-align: center;
+    }
+    .team p{
+        padding: 10px;
+    }
+    
+    .two-para{
+        flex-direction: column;
+    }
+
+    .services-img{
+        width: 90%;
+    }
+
+    .our-team{
+        padding: 20px;
+    }
+    
+    .doctor{
+        height: 460px;
+    }
+    .phone{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:356px) {
+    .text-hero{
+        width: 100%;
+    }
+
+    .box1{
+        width: 80%;
+    }
+
+    .mission{
+        padding: 0px;
+    }
+
+    .mission p{
+        padding: 5px;
+    }
+
+    .vision{
+        padding: 0px;
+    }
+
+    .vision p{
+        padding: 5px;
+    }
+
+    .history{
+        padding: 0px;
+    }
+
+    .history p{
+        padding: 5px;
+    }
+
+    .team{
+        padding: 0px;
+    }
+    
+    .team p{
+        padding: 5px;
+    }
+
+    .first-comment{
+        width: 72%;
+    }
+    .services-img{
+        width: 95%;
+    }
+
+    .our-team{
+        padding: 10px;
+    }
+    
+    .doctor{
+        width: 70%;
+    }
+
+    .phone{
+        width: 60%;
+    }
+}
